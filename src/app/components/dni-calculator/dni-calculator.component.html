@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo letra del DNI</title>
+</head>
+<body>
+    <form>
+        <div>
+          <label for="dni">Introduce tu número de DNI:</label>
+          <input type="text" [(ngModel)]="dni" name="dni" id="dni">
+        </div>
+
+        <button (click)="calcular()">Calcular letra</button>
+      </form>
+      
+</body>
+</html>
